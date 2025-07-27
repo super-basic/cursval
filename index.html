@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Конвертер валют</title>
+    <link rel="stylesheet" href="css/awesome/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Конвертер валют</h1>
+
+        <form>
+            <section id="amount">
+                <p>Введите сумму</p>
+                <input type="text" value="1">
+            </section>
+            <section id="drop-lists">
+                <div id="from">
+                    <p>У меня есть</p>
+                    <div class="select-box">
+                        <img id="img_from" src="https://flagcdn.com/48x36/us.png" alt="flag">
+                        <select></select>
+                    </div>
+                </div>
+
+                <div id="icon"><i class="fas fa-exchange-alt"></i></div>
+
+                <div id="to">
+                    <p>Получу</p>
+                    <div class="select-box">
+                        <img id="img_to" src="https://flagcdn.com/48x36/ru.png" alt="flag">
+                        <select></select>
+                    </div>
+                </div>
+            </section>
+
+            <div id="exchange-rate">Здесь выведится результат</div>
+
+            <button>Узнать обменный курс</button>
+        </form>
+    </div>
+    <script src="js/country-list.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
