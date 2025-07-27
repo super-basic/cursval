@@ -57,8 +57,8 @@ FAS_BUTTON.addEventListener("click", (eventFas) => {
 
     let cur_from = FROM_CURRENCY.value
     let cur_to = TO_CURRENCY.value
-    console.log(cur_from)
-    console.log(cur_to)
+    //console.log(cur_from)
+    //console.log(cur_to)
     // const OPTION_TAG = `<option >${cur_to}</option>`;
     //
     // DROP_LISTS[0].insertAdjacentHTML("beforeend", OPTION_TAG);
@@ -67,8 +67,8 @@ FAS_BUTTON.addEventListener("click", (eventFas) => {
 
     let from_country = country_list[cur_from].toLowerCase();
     let to_country = country_list[cur_to].toLowerCase();
-    console.log(from_country)
-    console.log(to_country)
+    //console.log(from_country)
+    //console.log(to_country)
     document.getElementById('img_from').src = `https://flagcdn.com/48x36/${to_country}.png`;
     document.getElementById('img_to').src = `https://flagcdn.com/48x36/${from_country}.png`;
     //console.log(country_list['RUB'])
